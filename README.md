@@ -1,1 +1,1 @@
-# react-typescript-jest-starter
+# jest-typescript-boilerplate
