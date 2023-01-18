@@ -1,4 +1,9 @@
 {
+  "name": "jest-typescript-boilerplate",
+  "version": "1.0.0",
+  "repository": "https://github.com/memoriaXII/jest-typescript-boilerplate.git",
+  "author": "memoriaXII",
+  "license": "MIT",
   "private": true,
   "scripts": {
     "dev": "next",
@@ -11,6 +16,7 @@
     "test:debug": "yarn-or-npm test --debug --detectOpenHandles",
     "test:ci": "yarn-or-npm test --runInBand --no-cache --ci",
     "test": "NODE_ENV=test jest",
+    "test:e2e": "playwright test",
     "typecheck": "tsc --noEmit",
     "clean": "rimraf out/",
     "prepare": "husky install",
@@ -44,6 +50,7 @@
   },
   "devDependencies": {
     "@jest/expect": "^29.3.1",
+    "@playwright/test": "^1.29.2",
     "@storybook/addon-actions": "^6.3.8",
     "@storybook/addon-docs": "^6.3.8",
     "@storybook/addon-essentials": "^6.3.8",
