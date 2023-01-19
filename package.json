@@ -16,7 +16,7 @@
     "test:debug": "yarn-or-npm test --debug --detectOpenHandles",
     "test:ci": "yarn-or-npm test --runInBand --no-cache --ci",
     "test": "NODE_ENV=test jest",
-    "test:e2e": "playwright test",
+    "test:e2e": "npx playwright test e2e",
     "typecheck": "tsc --noEmit",
     "clean": "rimraf out/",
     "prepare": "husky install",
