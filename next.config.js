@@ -4,4 +4,7 @@ module.exports = {
   generateEtags: false,
   reactStrictMode: true,
   swcMinify: true,
+  eslint: {
+    dirs: ['__tests__'], // Only run ESLint on the 'pages' and 'utils' directories during production builds (next build)
+  },
 }
