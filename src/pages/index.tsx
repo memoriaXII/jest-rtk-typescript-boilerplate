@@ -1,13 +1,14 @@
-/* eslint-disable react/react-in-jsx-scope */
 import type { NextPage } from 'next'
 
 import { AddTodo } from '@/components/AddTodo'
-import TaskListContainer from '@/containers/TaskListContainer'
+import { Counter } from '@/components/Counter'
+import { TaskList } from '@/components/TaskList'
 
 const Home: NextPage = () => (
   <div>
     <AddTodo />
-    <TaskListContainer />
+    <TaskList />
+    <Counter />
   </div>
 )
 
