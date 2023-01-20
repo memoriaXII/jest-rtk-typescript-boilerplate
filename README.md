@@ -1,1 +1,2 @@
-# jest-typescript-boilerplate
+# jest-rtk-typescript-boilerplate
+
